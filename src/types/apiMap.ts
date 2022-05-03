@@ -1,10 +1,5 @@
-import { ServerCollectionResponse } from "./common";
-
-export type ApiResourceItemLink = {
-    type: string;
-    rel: string;
-    uri: string;
-};
+// interfaces/types
+import type { ApiResourceItemLink, ServerCollectionResponse } from "./common";
 
 export type ApiMapRootResourceItem = {
     id: string;

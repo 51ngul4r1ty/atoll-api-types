@@ -1,3 +1,9 @@
+export type ApiResourceItemLink = {
+    type: string;
+    rel: string;
+    uri: string;
+};
+
 type DataResponseItem<T> = {
     item: T;
 };

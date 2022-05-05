@@ -8,7 +8,7 @@ export type SprintBacklogResourceItem = {
     displayindex: number;
     estimate: number | null;
     externalId: string | null;
-    finishedAt: string | null; // TODO: Is this a bug? "releasedAt" is set but this isn't.  Hmmmm...
+    finishedAt: string | null;
     friendlyId: string; // e.g. "s-70"
     id: string; // this is currently story ID but may change in future
     projectId: string;
